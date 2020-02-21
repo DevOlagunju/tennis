@@ -1,0 +1,253 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: #605e5c;
+  /* font-family: "Roboto", sans-serif !important; */
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 14px;
+  font-weight: 200;
+  height: 100%;
+  overflow-x: hidden;
+  width: 100%;
+  line-height: 1.5;
+  /* background-color: navy;
+  color: white; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  width: 100%;
+
+  /* margin :auto; */
+}
+
+.display {
+  height: 100%;
+  width: 50%;
+  border: 2px solid white;
+  padding: 12px;
+  margin: 5px;
+
+}
+
+.message {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.players {
+  border: 0px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 15px;
+  padding: 9px;
+  text-align: center;
+  width: 60%;
+}
+
+.p1 p {
+  color: black;
+}
+
+.p2 p {
+  color: black;
+  font-size: bold;
+}
+
+.won p {
+  text-align: center;
+  margin-top: 25px;
+}
+
+
+.score {
+  font-size: 40px;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+  padding: 10px;
+}
+
+.btn button {
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.btn1 {
+  margin: 5px;
+}
+
+.btn2 {
+  margin: 5px;
+}
+
+.btn3 {
+  margin: 5px;
+}
+
+.btn1 button {
+  background-color: #2980b9;
+  cursor: pointer;
+}
+
+.btn2 button {
+  background-color: #2980b9;
+}
+
+.btn3 button {
+  background-color: #e74c3c;
+}
